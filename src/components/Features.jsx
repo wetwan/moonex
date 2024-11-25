@@ -1,5 +1,4 @@
-import React from "react";
-import { FiDollarSign } from "react-icons/fi";
+
 import { feat } from "../assets/index";
 
 const Features = () => {
@@ -12,7 +11,7 @@ const Features = () => {
         {feat.map((item, i) => (
           <div
             key={i}
-            className="hover:bg-[#E4B40D] hover:text-black transition-all duration-500 ease-in  hover:text-blue text-white w-[200px] h-[200px] bg-transparent backdrop:blur  rounded-lg p-6 py-9 shadow-shadows"
+            className="hover:bg-[#E4B40D] hover:text-black transition-all duration-500 ease-in  hover:text-blue text-white w-[200px] h-auto bg-transparent backdrop:blur  rounded-lg p-6 py-9 shadow-shadows"
           >
             <div className=" p-2 rounded-full  border-2 w-1/6 mb-4">
               <img src={item.image} alt="" className=" mx-auto" />

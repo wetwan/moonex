@@ -1,4 +1,3 @@
-import React from "react";
 import { assets } from "../assets";
 import { FaCheck } from "react-icons/fa";
 import { IoIosClose } from "react-icons/io";

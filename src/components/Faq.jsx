@@ -1,5 +1,5 @@
-import React from "react";
-import { assets,faq } from "../assets";
+
+import { faq } from "../assets";
 
 const Faq = () => {
   return (
